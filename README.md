@@ -70,7 +70,7 @@ Using the `@property` syntax, while it can feel verbose, is actually  a shorthan
 
 #### The Instance Variable
 
-The **instance variable** (also "ivar") is the actual value that the property manages. It is both programming convention and the implicit behavior of the `@proprety` syntax that the instance variable is named after the property but with an underscore (`_`) prepended to disambiguate it. So, `_length` is the *instance variable* managed by the `length` property, and `_count` is the *instance variable* managed by the `count` property.
+The **instance variable** (also "ivar") is the actual value that the property manages. It is both programming convention and the implicit behavior of the `@property` syntax that the instance variable is named after the property but with an underscore (`_`) prepended to disambiguate it. So, `_length` is the *instance variable* managed by the `length` property, and `_count` is the *instance variable* managed by the `count` property.
 
 **Note:** *Do* ***not*** *access an instance variable directly unless writing an initializer (common) or overriding a setter or getter (advanced). Otherwise, stick to using the dot notation which implicitly calls the setter and getter methods for that property.*
 
