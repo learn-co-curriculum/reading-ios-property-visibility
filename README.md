@@ -239,3 +239,5 @@ AM: 150.0, FM: 91.0
 AM: 149.5, FM: 90.9
 ```
 We have successfully privatized the setter for our frequency properties and provided public methods to provide protected access their values.
+
+<a href='https://learn.co/lessons/reading-ios-property-visibility' data-visibility='hidden'>View this lesson on Learn.co</a>
